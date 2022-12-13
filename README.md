@@ -3,7 +3,7 @@ variety of different bioinformatic scripts
 
 Script: functionality
 
-* annotate_repetitive_regions_on_genome.py: Script to identify repetitive regions in a bacterial reference genome defined by BLASTing the reference genome against itself.
+* __annotate_repetitive_regions_on_genome.py__: Script to identify repetitive regions in a bacterial reference genome defined by BLASTing the reference genome against itself.
 * create_snippy_consensus.py: Script to obtain a version of the reference genome with both substitution variants and missing calls initiated from Snippy output files
 * extract_gene_sequence.py: Script to extract the DNA and protein sequence of a GFF annotated gene (tested on Bakta annotated GFF3 files). The script will output: gene information, gene DNA and protein sequences.
 * extract_gene_sequence_blast.py: Script to extract the DNA sequence of a gene from an assembly by Blasting the gene sequence against the assembly. The script will output: gene information, gene DNA and protein sequences.
