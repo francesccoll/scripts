@@ -70,7 +70,7 @@ def _main():
             num_input_ids += 1
             if record.id in replace_ids:
                 num_ids_replaced += 1
-                record.id = replace_ids[record.id]
+                record.id = record.description = replace_ids[record.id]
             else:
                 logging.warning(f"Id in input FATSA {record.id} not found")
             output_records.append(record)
